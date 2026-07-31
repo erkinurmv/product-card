@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.header {
+  font-size: 70px;
+  text-align: center;
+  color: #515076;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  margin: 25px;
+}
+
+
+.container-first-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.container-second-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.container-third-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.container-fourth-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.container-fifth-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.first-block {
+  list-style-position: inside;
+  width: 340px;
+  background-color: #f7f7fa;
+
+}
+
+.second-block {
+  list-style-position: inside;
+  width: 340px;
+  background-color: #f7f7fa;
+}
+
+.third-block {
+  list-style-position: inside;
+  width: 340px;
+  background-color: #f7f7fa;
+}
+
+.fourth-block {
+  list-style-position: inside;
+  width: 340px;
+  background-color: #f7f7fa;
+}
+
+.fifth-block {
+  list-style-position: inside;
+  width: 340px;
+  background-color: #f7f7fa;
+}
+
+.change-color {
+  color: #515076;
+}
+
+.text-color {
+  color: #a5a3b9;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+b {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sum {
+  font-size: 20px;
+}
+
+.button-repair-prices {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.text-counteiner {
+  padding-left: 25px;
+
+}
+
+.span {}
