@@ -32,11 +32,7 @@ h2 {
   padding-bottom: 5px;
 }
 
-.first-product-image,
-.second-product-image,
-.third-product-image,
-.fourth-product-image,
-.fifth-product-image {
+.product-image {
   margin: 25px 25px 30px 25px;
   display: block;
 }
@@ -46,70 +42,18 @@ h2 {
   margin: 0;
 }
 
-.container-first-card {
+.container-card {
   margin: 0;
   padding: 0;
   list-style-type: circle;
   padding-bottom: 25px;
 }
 
-.container-second-card {
-  margin: 0;
-  padding: 0;
-  list-style-type: circle;
-  padding-bottom: 25px;
-}
-
-.container-third-card {
-  margin: 0;
-  padding: 0;
-  list-style-type: circle;
-  padding-bottom: 25px;
-}
-
-.container-fourth-card {
-  margin: 0;
-  padding: 0;
-  list-style-type: circle;
-  padding-bottom: 25px;
-}
-
-.container-fifth-card {
-  margin: 0;
-  padding: 0;
-  list-style-type: circle;
-  padding-bottom: 25px;
-}
-
-.first-block {
+.cards-block {
   list-style-position: inside;
   width: 340px;
   background-color: #f7f7fa;
 
-}
-
-.second-block {
-  list-style-position: inside;
-  width: 340px;
-  background-color: #f7f7fa;
-}
-
-.third-block {
-  list-style-position: inside;
-  width: 340px;
-  background-color: #f7f7fa;
-}
-
-.fourth-block {
-  list-style-position: inside;
-  width: 340px;
-  background-color: #f7f7fa;
-}
-
-.fifth-block {
-  list-style-position: inside;
-  width: 340px;
-  background-color: #f7f7fa;
 }
 
 .change-color {
