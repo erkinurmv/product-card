@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,500;1,600;1,800&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #515076;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.title {
+  font-size: 70px;
+  text-align: center;
+  color: #515076;
+  font-weight: normal;
+  margin: 220px 217px 110px;
+}
+
+.products {
+  list-style: none;
+
+}
+
+.products__content {
+  background-color: #f7f7fa;
+  list-style-position: inside;
+  max-width: 340px;
+  padding-left: 25px;
+}
+
+.products__image {
+  margin: 25px 25px 30px 0px;
+}
+
+.products__purpose {
+  list-style: none;
+  font-size: 12px;
+  color: #a5a3b9;
+  margin-bottom: 5px;
+
+}
+
+.products__product-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.products__description {
+  margin-bottom: 15px;
+}
+
+.compound__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.products__compound {
+  margin-bottom: 25px;
+}
+
+.buy-zone {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.buy-zone__price-label {
+  font-weight: bold;
+}
+
+.buy-zone__price-value {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
