@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,500;1,600;1,800&display=swap');
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  color: #515076;
 }
 
-
-.catalog-container {
+.container {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
@@ -18,74 +22,71 @@ body {
   width: 1280px;
 }
 
-.header {
+.title {
   font-size: 70px;
   text-align: center;
   color: #515076;
   font-weight: normal;
+  margin: 220px 217px 110px;
 }
 
-h2 {
-  font-size: 27px;
-  font-weight: bold;
-  margin: 0;
-  padding-bottom: 5px;
+.products {
+  list-style: none;
+
 }
 
-.product-image {
-  margin: 25px 25px 30px 25px;
-  display: block;
-}
-
-.product-description {
-  padding-bottom: 15px;
-  margin: 0;
-}
-
-.container-card {
-  margin: 0;
-  padding: 0;
-  list-style-type: circle;
-  padding-bottom: 25px;
-}
-
-.cards-block {
-  list-style-position: inside;
-  width: 340px;
+.products__content {
   background-color: #f7f7fa;
-
+  list-style-position: inside;
+  max-width: 340px;
+  padding-left: 25px;
 }
 
-.change-color {
-  color: #515076;
+.products__image {
+  margin: 25px 25px 30px 0px;
 }
 
-.purpose {
-  color: #a5a3b9;
+.products__purpose {
+  list-style: none;
   font-size: 12px;
-  margin: 0px;
-  padding-bottom: 5px;
+  color: #a5a3b9;
+  margin-bottom: 5px;
+
 }
 
-b {
+.products__product-name {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
-.sum {
+.products__description {
+  margin-bottom: 15px;
+}
+
+.compound__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.products__compound {
+  margin-bottom: 25px;
+}
+
+.buy-zone {
   font-size: 20px;
-}
-
-
-.button-repair-prices {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 25px;
   padding-right: 25px;
   font-size: 20px;
 }
 
-.text-counteiner {
-  padding-left: 25px;
+.buy-zone__price-label {
+  font-weight: bold;
+}
 
+.buy-zone__price-value {
+  font-weight: 400;
+  margin-bottom: 25px;
 }
